@@ -1,25 +1,28 @@
-body{
-margin: 0 auto;
-width: 792px;
-height: 1224px;
-background:pink;
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
-.main{
-width: 792px;
-height: 1224px;
-background: #FFFFFF;
+.container {
+
+    display: flex;
+    justify-content: space-around;
 }
+
+.group17{
+    display: flex;
+    flex-direction: column;
+margin-bottom: 70px;
+}
+
 .frame12{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-width: 200px;
-height: 68px;
-padding-top: 20px;
-margin-left: 20px;
+margin-bottom: 80px;
 }
 .yname{
-width: 300px;
 font-family: Inter;
 font-style: normal;
 font-weight: 600;
@@ -28,10 +31,8 @@ line-height: 44px;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 color: #000000;
-margin-top: -75px;
 }
 .ybio{
-width: 487px;
 font-family: Inter;
 font-style: normal;
 font-weight: 500;
@@ -40,119 +41,88 @@ line-height: 17px;
 letter-spacing: 0.015em;
 text-transform: uppercase;
 color: #000000;
-}
+} 
 .content{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-width: 464px;
-margin-left: 20px;
 padding-top: 0px;
-float: left;
 }
 .education{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-width: 398px;
 margin: 0px 0px 30px 0px;
 }
 .expe {
 display: flex;
 flex-direction: column;
-width: 464px;
 margin: 0px 0px 30px 0px;
 }
 .proj{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-width: 441px;
 margin: 0px 0px 30px 0px;
 }
 .certi{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-width: 296px;
 margin: 0px 0px 30px 0px;
 }
 .frame18{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-width: 139px;
-margin-left: 70%;
 }
 .frame8{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 margin: 0px 0px 15px 0px;
-width: 136px;
-height: 91px;
 }
 .frame9{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-width: 129px;
-height: 118px;
 margin: 0px 0px 15px 0px;
 }
 .frame118{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-width: 139px;
-height: 103px;
 margin: 0px 0px 15px 0px;
 }
 .frame19{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 129px;
-    height: 179px;
 }
 .frame73{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 8px 0px 0px 0px;
-    width: 129px;
-    height: 141px;
 }
 .peep img{
-width: 200px;
-height: 200px;
 float: bottom;
 }
-.group17{
-width: 150px;
-padding-top: -10px;
-margin-left: 70%;
-}
+
 .link{
-width: 17px;
-height: 17px;
 float: left;
 margin: 0px 5px 0px 0px;
 }
 .phone{
-width: 17px;
-height: 17px;
 float: left;
 margin: 0px 5px 0px 0px;
 }
 .mail{
-width: 17px;
-height: 17px;
 float: left;
 margin: 0px 5px 0px 0px;
 }
 .night{
-margin-left: 700px;
+text-align: right;
 padding-top: 10px;
 }
 .smaltextgray{
@@ -160,14 +130,12 @@ font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
-line-height: 15px;
 }
 .texttochki{
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
-line-height: 15px;
 color: #52575C;
 }
 .fattext{
@@ -175,8 +143,6 @@ font-family: Inter;
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
-line-height: 17px;
-letter-spacing: 0.015em;
 color: #000000;
 }
 .greentext{
@@ -184,8 +150,6 @@ font-family: Inter;
 font-style: normal;
 font-weight: 600;
 font-size: 17px;
-line-height: 22px;
-letter-spacing: 0.015em;
 text-transform: uppercase;
 color: #136223;
 }
@@ -194,7 +158,6 @@ font-family: Inter;
 font-style: italic;
 font-weight: normal;
 font-size: 12px;
-line-height: 15px;
 color: #000000;
 }
 .black-color-theme{
@@ -210,50 +173,10 @@ color: black;
 color: white;
 }
 @media (max-width: 420px){
-body{
-width: max-content;
+.content{
+width: 50%;
 }
-.main{
-width: 420px;
-height: 1400px;
+.yname{
+font-size: 26px;
 }
-.education{
-width: 30%;
-}
-.expe{
-width: 30%;
-}
-.proj{
-width: 30%;
-}
-.certi{
-width: 30%;
-}
-.night{
-margin-left: 300px;
-}
-.frame8{
-margin-left: -300px;  
-padding-top: 5%;
-}
-.frame9{
-margin-left: -300px;  
-padding-top: 5%;
-}
-.frame118{
-margin-left: -300px;  
-padding-top: 5%;
-}
-.frame19{
-margin-left: -300px;  
-padding-top: 5%;
-}
-.peep img{
-width: 150px;
-height: 150px;
-margin-left: -300px; 
-}
-.group17{
-margin-left: 32.3%;
-}
-}
+} 
