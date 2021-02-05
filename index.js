@@ -3,6 +3,7 @@ document.addEventListener("click",(e)=>{
 })
 
 const switchColorTheme = document.getElementsByClassName("night")[0];
+console.log(switchColorTheme)
 switchColorTheme.addEventListener("click",()=>{
     let div = document.getElementsByClassName("main")[0]
     div.classList.toggle("black-color-theme")
